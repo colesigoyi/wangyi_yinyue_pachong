@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 url = 'http://music.163.com/weapi/v1/resource/comments/R_SO_4_551816010?csrf_token=a450002d7b0dcdd46dcb18ae3b1ebbf2'
 
 headers = {
-    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+    'User-Agent': '删除',
     'Host': 'music.163.com',
     'Origin': 'http://music.163.com',
     'Referer': 'http://music.163.com/song?id=551816010',
@@ -44,7 +44,7 @@ bar.render()
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 content_text = " ".join(content_list)
-wordcloud = WordCloud(font_path=r"/Users/taoxuefeng/wordcloud_font/simhei.ttf",max_words=300).generate(content_text)
+wordcloud = WordCloud(font_path=r"/Users/删除/wordcloud_font/simhei.ttf",max_words=300).generate(content_text)
 plt.figure()
 plt.imshow(wordcloud,interpolation='bilinear')
 plt.axis('off')
